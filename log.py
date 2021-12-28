@@ -1,4 +1,3 @@
-import logdna from DNA
 from time import sleep
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
