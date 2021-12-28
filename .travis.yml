@@ -1,4 +1,4 @@
 ---
 language: python
 dist: bionic
-script: python3 log.py
+script: skip
