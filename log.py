@@ -12,7 +12,9 @@ def run_background(func, callback, args=(), kwds={}):
         IOLoop.instance().add_callback(lambda: callback(result))
     _workers.apply_async(func, args, kwds, _callback)
 
-# blocking task like querying to MySQL
+# Blocking a task like querying MySQL, etc. 
+# Test for LogDNA 
+
 def blocking_task(n):
     sleep(n)
     return n
