@@ -1,4 +1,4 @@
 ---
 language: python
 dist: bionic
-script: chmod u+x python3 log.py
+script: python3 log.py
